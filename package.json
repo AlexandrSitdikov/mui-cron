@@ -1,7 +1,7 @@
 {
   "name": "mui-cron",
   "version": "1.0.1",
-  "description": "A React cron editor with MUI a forked repo from Itay Levy (https://github.com/AlexandrSitdikov/mui-cron)",
+  "description": "A React cron editor with MUI a forked repo from Itay Levy (https://github.com/levyitay/react-js-cron-mui)",
   "keywords": [
     "react",
     "reactjs",
