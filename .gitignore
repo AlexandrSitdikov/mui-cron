@@ -32,3 +32,4 @@ react-js-cron-*.tgz
 
 #vscode
 .vscode
+.vs/

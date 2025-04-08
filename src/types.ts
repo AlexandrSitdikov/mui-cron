@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction } from 'react'
-import {ButtonProps,SelectProps} from '@material-ui/core'
+import { ButtonProps, SelectProps } from '@mui/material'
 // External props
 
 export interface CronProps {
@@ -246,36 +246,37 @@ export interface MinutesProps extends FieldProps {
   clockFormat?: ClockFormat
 }
 export interface CustomSelectProps
-  extends Omit<
-    SelectProps,
-    | 'mode'
-    | 'tokenSeparators'
-    | 'allowClear'
-    | 'virtual'
-    | 'onClick'
-    | 'onBlur'
-    | 'tagRender'
-    | 'dropdownRender'
-    | 'showSearch'
-    | 'showArrow'
-    | 'onChange'
-    | 'dropdownMatchSelectWidth'
-    | 'options'
-    | 'onSelect'
-    | 'onDeselect'
-  > {
-  grid?: boolean
-  setValue: SetValueNumbersOrUndefined
-  optionsList?: string[]
-  locale: Locale
-  value?: number[]
-  humanizeLabels?: boolean
-  disabled: boolean
-  readOnly: boolean
-  leadingZero?: LeadingZero
-  clockFormat?: ClockFormat
-  period: PeriodType
-  unit: Unit
+    extends Omit<
+        SelectProps,
+        | 'mode'
+        | 'tokenSeparators'
+        | 'allowClear'
+        | 'virtual'
+        | 'onClick'
+        | 'onBlur'
+        | 'tagRender'
+        | 'dropdownRender'
+        | 'showSearch'
+        | 'showArrow'
+        | 'onChange'
+        | 'dropdownMatchSelectWidth'
+        | 'options'
+        | 'onSelect'
+        | 'onDeselect'
+    > {
+    grid?: boolean
+    setValue: SetValueNumbersOrUndefined
+    optionsList?: string[]
+    locale: Locale
+    value?: number[]
+    humanizeLabels?: boolean
+    disabled: boolean
+    readOnly: boolean
+    leadingZero?: LeadingZero
+    clockFormat?: ClockFormat
+    period: PeriodType
+    placeholder: string
+    unit: Unit
 }
 export type SetValueNumbersOrUndefined = Dispatch<
   SetStateAction<number[] | undefined>

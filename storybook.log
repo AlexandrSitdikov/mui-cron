@@ -1,0 +1,21 @@
+npm error code ERESOLVE
+npm error ERESOLVE unable to resolve dependency tree
+npm error
+npm error While resolving: mui-cron_test@0.1.2
+npm error Found: eslint@7.32.0
+npm error node_modules/eslint
+npm error   dev eslint@"^7.17.0" from the root project
+npm error
+npm error Could not resolve dependency:
+npm error peer eslint@">=8" from eslint-plugin-storybook@0.12.0
+npm error node_modules/eslint-plugin-storybook
+npm error   dev eslint-plugin-storybook@"*" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error C:\Users\alexa\AppData\Local\npm-cache\_logs\2025-04-08T15_15_40_286Z-eresolve-report.txt
+npm error A complete log of this run can be found in: C:\Users\alexa\AppData\Local\npm-cache\_logs\2025-04-08T15_15_40_286Z-debug-0.log
